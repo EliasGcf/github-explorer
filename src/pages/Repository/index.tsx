@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { useRouteMatch, Link } from 'react-router-dom';
-import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import { useRouteMatch } from 'react-router-dom';
+import { FiChevronRight } from 'react-icons/fi';
 
 import api from '../../services/api';
-import logoImg from '../../assets/logo.svg';
-
-import Header from '../../components/Header';
 
 import { RepositoryInfo, Issues } from './styles';
 
@@ -87,7 +84,12 @@ const Repository: React.FC = () => {
 
       <Issues>
         {issues.map(issue => (
-          <a key={issue.id} href={issue.html_url}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            key={issue.id}
+            href={issue.html_url}
+          >
             <div>
               <strong>{issue.title}</strong>
               <p>{issue.user.login}</p>

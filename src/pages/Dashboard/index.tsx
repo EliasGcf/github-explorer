@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FiChevronRight } from 'react-icons/fi';
 
 import api from '../../services/api';
-import Header from '../../components/Header';
 
 import { Title, Form, Repositories, Error } from './styles';
 
