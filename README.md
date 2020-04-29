@@ -36,6 +36,15 @@
 
 Esta pequena aplicação web foi desenvolvida com o intuito de estudar os principais conceitos de ReactJS. De forma simples, permite cadastrar e listar repositórios, além de disponibilizar algumas informações sobre ele.
 
+Realizei o deploy deste projeto por meio do GitHub Pages, [acesse](https://eliasgcf.github.io/github-explorer/) 📲
+
+<details><summary>Layout do Projeto</summary>
+  <img alt="Dashboard-Dark" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588186808/github-explorer/Captura_de_Tela_2020-04-29_a%CC%80s_15.55.32_rulsfk.png">
+  <img alt="Repository-Dark" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588186811/github-explorer/Captura_de_Tela_2020-04-29_a%CC%80s_15.55.44_inimy1.png">
+  <img alt="Dashboard-Light" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588187143/github-explorer/Captura_de_Tela_2020-04-29_a%CC%80s_16.05.24_z06pcs.png">
+  <img alt="Repository-Light" src="https://res.cloudinary.com/eliasgcf/image/upload/v1588187172/github-explorer/Captura_de_Tela_2020-04-29_a%CC%80s_16.06.03_cancm1.png">
+</details>
+
 ## 🚀 Tecnologias
 
 Esta aplicação foi desenolvida com as seguintes tecnologias:
