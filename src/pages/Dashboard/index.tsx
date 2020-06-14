@@ -58,7 +58,7 @@ const Dashboard: React.FC = () => {
 
   return (
     <>
-      <Title>Explore repositórios no GitHub</Title>
+      <Title>Explore repositórios no GitHub.</Title>
 
       <Form hasError={!!inputError} onSubmit={handleAddRepository}>
         <input
